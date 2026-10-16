@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            transition-property: all;
+            transition-duration: 5s;
+            transition-timing-function: ease-in;
+            transition-delay: 2s;
+
+        }
+        div:hover{
+            background-color: blueviolet;
+            /* margin-left: 500px; */
+            border-radius: 50%;
+            height: 500px;
+            background-image: url("https://images.pexels.com/photos/863963/pexels-photo-863963.jpeg?cs=srgb&dl=pexels-blaque-x-863963.jpg&fm=jpg");
+
+            background-size: cover;
+            width: 500px;
+            transform: rotate(3600deg);
+            transform: scaleX(-1.5);
+            transform: skew(-45deg);
+            transform: translate(-450px,-450px);
+        }
+        div:active{
+            background-color: aqua;
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+
+
+    <img src="https://images.pexels.com/photos/863963/pexels-photo-863963.jpeg?cs=srgb&dl=pexels-blaque-x-863963.jpg&fm=jpg" alt="">
+    
+</body>
+</html>
